@@ -1,0 +1,20 @@
+
+<table border="1">
+    <tr>
+        <th>Book ID</th>
+        <th>Book Title</th>
+        <th>Book Author</th>
+        <th>Book Year of publish</th>
+    
+    </tr>
+
+        <tr *ngFor="let bk of books">
+            <td>{{bk.id}}</td>
+            <td>{{bk.title}}</td>
+            <td>{{bk.author}}</td>
+            <td>{{bk.year}}</td>
+         
+        </tr>
+
+       
+</table>
